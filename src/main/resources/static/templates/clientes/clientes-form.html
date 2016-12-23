@@ -1,0 +1,32 @@
+<br/>
+<div class="panel panel-default"  ng-controller="ClientesFormCtrl as clientesCtrl">
+
+    <div class="panel-heading">
+
+        <h3 class="panel-title pull-left">
+            Adicionar Cliente
+        </h3>
+
+        <a ng-click="clientesCtrl.voltar();" class="btn btn-default pull-right">
+            <span class="glyphicon glyphicon-arrow-left"></span> Voltar
+        </a>
+
+        <div class="clearfix"></div>
+
+    </div>
+
+    <div class="panel-body">
+        <form role="form" ng-submit="clientesCtrl.salvar()">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" required class="form-control" ng-model="clientesCtrl.cliente.nomeCliente" id="nome" placeholder="Nome">
+                <label for="cpf">CPF</label>
+                <input type="text" required class="form-control" ng-model="clientesCtrl.cliente.cpfCliente" id="cpf" placeholder="CPF">
+            </div>
+            <button ladda="clientesCtrl.loginLoading" data-style="expand-right" type="submit" class="btn btn-primary">
+                <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+                Salvar
+            </button>
+        </form>
+    </div>
+</div>
