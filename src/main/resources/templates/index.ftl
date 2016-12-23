@@ -4,7 +4,7 @@
     <meta >
 
     <link rel="stylesheet" media="screen" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen" href="/bower_components/AngularJS-Toaster/toaster.min.css">
+    <link rel="stylesheet" media="screen" href="/bower_components/angularjs-toaster/toaster.min.css">
     <link rel="stylesheet" media="screen" href="/bower_components/ladda/dist/ladda-themeless.min.css">
 
 </head>
